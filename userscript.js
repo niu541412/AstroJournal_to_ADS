@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         APJ to ADS
 // @namespace    niu541412
-// @version      0.3
+// @version      0.4
 // @description  Add direct link to NASA/ADS on iop.org webpage for astronomy papers.
 // @author       niu541412@gmail.com
 // @match        *://iopscience.iop.org/article/*
@@ -13,13 +13,16 @@
 
 (function() {
     'use strict';
-    var doiMeta = document.querySelector("head > meta:nth-child(105)").content;
-    var doi = doiMeta.split(":")[1];
+    //var doiMeta = document.querySelector("head > meta:nth-child(105)").content;
+    //var doi = doiMeta.split(":")[1];
+    var adspath = window.location.pathname;
+    var arr = adspath.split("/article");
+    var doi = arr[1];
     var insertnode = document.getElementsByClassName("content-nav-ul wd-content-nav")[0];
     var insertdom = document.createElement("li");
     var p = document.createElement("a");
     p.append("NASA/ADS");
-    p.href = "http://adsabs.harvard.edu/abs/"+doi;
+    p.href = "http://adsabs.harvard.edu/abs"+doi;
     insertdom.append(p);
     insertnode.prepend(insertdom);
 })();
