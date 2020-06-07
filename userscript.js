@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         Astronomy Journel to ADS
+// @name         Astronomy Journal to ADS
 // @namespace    niu541412
-// @version      0.6
+// @version      0.7
 // @description  Add direct link to NASA/ADS on iop.org webpage for astronomy papers.
 // @author       niu541412@gmail.com
 // @match        *://iopscience.iop.org/article/*
