@@ -3,6 +3,8 @@ Add direct link to NASA/ADS on some astronomy journal webpage for astronomy pape
 
 Greasyfork [Link](https://greasyfork.org/zh-CN/scripts/400529)
 
-Upcoming feature:
-Nature, Science, ARAA etc. link to ADS
+Now including:
+Nature, Science, ARAA, APJ etc.
 
+Upcoming:
+balabala…
