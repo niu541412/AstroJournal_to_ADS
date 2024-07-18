@@ -1,5 +1,5 @@
 # Astronomy Journal to ADS
-Add direct link to NASA/ADS on some astronomy journal webpage for astronomy papers.
+Add direct link to NASA/ADS on some journal webpage for astronomical papers.
 
 Greasyfork [Link](https://greasyfork.org/zh-CN/scripts/400529)
 
